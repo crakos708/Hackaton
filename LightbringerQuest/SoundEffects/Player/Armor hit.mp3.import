@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Armor hit.mp3-e8986025dc906c606f61278f9fe4cd48.mp3str"
+
+[deps]
+
+source_file="res://SoundEffects/Player/Armor hit.mp3"
+dest_files=[ "res://.import/Armor hit.mp3-e8986025dc906c606f61278f9fe4cd48.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

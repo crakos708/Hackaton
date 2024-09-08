@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Terraria - Boss 2.mp3-94d13eafa8f02f4d06ff9385afa3e62b.mp3str"
+
+[deps]
+
+source_file="res://SoundEffects/Terraria - Boss 2.mp3"
+dest_files=[ "res://.import/Terraria - Boss 2.mp3-94d13eafa8f02f4d06ff9385afa3e62b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

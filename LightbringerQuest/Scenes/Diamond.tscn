@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/68c787b8-a27f-44ba-9200-1ee44c54003a-removebg-preview-removebg-preview.png" type="Texture" id=1]
+[ext_resource path="res://Scripts/Prism.gd" type="Script" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 10.7703
+
+[node name="Diamond" type="Node2D"]
+
+[node name="Prism" type="Area2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Prism"]
+position = Vector2( 1, -1 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="Prism/CollisionShape2D"]
+position = Vector2( 0, -0.249999 )
+scale = Vector2( 0.0742424, 0.0681818 )
+texture = ExtResource( 1 )
+
+[connection signal="body_entered" from="Prism" to="Prism" method="_on_Prism_body_entered"]
